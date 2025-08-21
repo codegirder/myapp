@@ -1,24 +1,22 @@
-# README
+# RUBY ON RAILS 8 TEMPLATE 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Create new app
+`rails new myapp -d postgresql -j bun`
 
-Things you may want to cover:
+### Install Bulma
+`cd myapp`
 
-* Ruby version
+`bundle add cssbundling-rails`
 
-* System dependencies
+`./bin/rails install css:install:bulma`
 
-* Configuration
+## Setup VSCode Extensions
 
-* Database creation
+`chmod +x ./script/setup-vscode-extensions.sh`
 
-* Database initialization
+`./script/setup-vscode-extensions.sh` (respond with 'import')
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+
