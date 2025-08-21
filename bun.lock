@@ -1,0 +1,21 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "app",
+      "dependencies": {
+        "@hotwired/stimulus": "^3.2.2",
+        "@hotwired/turbo-rails": "^8.0.16",
+      },
+    },
+  },
+  "packages": {
+    "@hotwired/stimulus": ["@hotwired/stimulus@3.2.2", "", {}, "sha512-eGeIqNOQpXoPAIP7tC1+1Yc1yl1xnwYqg+3mzqxyrbE5pg5YFBZcA6YoTiByJB6DKAEsiWtl6tjTJS4IYtbB7A=="],
+
+    "@hotwired/turbo": ["@hotwired/turbo@8.0.13", "", {}, "sha512-M7qXUqcGab6G5PKOiwhgbByTtrPgKPFCTMNQ52QhzUEXEqmp0/ApEguUesh/FPiUjrmFec+3lq98KsWnYY2C7g=="],
+
+    "@hotwired/turbo-rails": ["@hotwired/turbo-rails@8.0.16", "", { "dependencies": { "@hotwired/turbo": "^8.0.13", "@rails/actioncable": ">=7.0" } }, "sha512-Yxiy2x+N3eOIEDokvLzSrd08aI5RDKnFYDQFl2J/LuMEWTtPdY7oNP0F/gv/sSe5AV23Lwz4FitG/uNFXNM5tA=="],
+
+    "@rails/actioncable": ["@rails/actioncable@8.0.201", "", {}, "sha512-WiXZodvnK7u+wlu72DZydfV75x14HhzXI84sto9xcdsW1DMOHK+jYwQuuE/Wh/hKH5yajFIw/3DUP6MHDeGrbA=="],
+  }
+}
